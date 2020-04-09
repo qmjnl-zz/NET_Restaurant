@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Restaurant.Model;
 
 namespace Restaurant
 {
@@ -23,6 +24,14 @@ namespace Restaurant
         public MainWindow()
         {
             InitializeComponent();
+
+            //using (DataContext context = new DataContext())
+            //{
+            //    var meal = new Meal() { Name = "Картофель по-французски" };
+            //    context.Meals.Add(meal);
+            //    context.SaveChanges();
+            //}
+
         }
     }
 }
